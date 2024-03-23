@@ -25,15 +25,16 @@ This project delves into the statistical relationships between various movie att
 - Through exhaustive search methods, including the "regsubsets" function, we identified the most statistically significant variables affecting domestic gross earnings: budget, IMDb rating, and distributor.
 - Our model selection process was guided by criteria such as the Cp statistic and BIC (Bayesian Information Criterion), ensuring that we chose a model that balanced complexity with explanatory power, avoiding overfitting and collinearity.
 
+### Final Model
+The final regression model demonstrates the relationship between domestic gross earnings and selected movie attributes:
+
+log(Domestic Gross) = -0.955 + + 0.432(IMDb Rating) + 0.0144(Budget) + 0.650(Paramount) + 1.39(Sony) + 0.900(Universal) + 0.222(Disney) + 0.531(Warner Bros) + ε
+
+- The baseline for distributor is 'other'
+
 ### Insights and Contributions
 - The final model suggested a positive impact of budget and IMDb ratings on domestic gross earnings, alongside the strategic importance of movie distributors.
 - Our findings contribute to the broader understanding of movie market dynamics, potentially offering actionable insights for production companies.
-
-### Final Model
-The final regression model demonstrates the relationship between domestic gross earnings and selected movie attributes:
-\[
-\log(\text{Domestic Gross}) = -0.955 + 0.0144(\text{Budget}) + 0.650(\text{Paramount}) + 1.39(\text{Sony}) + 0.900(\text{Universal}) + 0.222(\text{Disney}) + 0.531(\text{Warner Bros}) + 0.432(\text{IMDb Rating}) + \epsilon
-\]
 
 ## Concluding Thoughts
 
