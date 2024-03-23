@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project delves into the statistical relationships between various movie attributes and their domestic gross earnings. Leveraging advanced statistical analysis and regression based modeling techniques, we aimed to uncover the determinants of financial success for movies in the domestic market. Our approach not only reveals the pivotal factors associated with movie earnings but also showcases our expertise in handling complex datasets and employing robust statistical methodologies.
+This project delves into the relationships between various movie attributes and their domestic gross earnings. Leveraging advanced statistical analysis, machine learning practices, and regression based modeling techniques, we aimed to uncover the determinants of financial success for movies in the domestic market. Our approach not only reveals the pivotal factors associated with movie earnings but also showcases our expertise in handling complex datasets and employing robust statistical methodologies.
 
 ## Team Contributors
 
@@ -25,7 +25,7 @@ This project delves into the statistical relationships between various movie att
 
 ### Model Selection and Validation
 - Through exhaustive search methods, including the "regsubsets" function, we identified the most statistically significant variables affecting domestic gross earnings: budget, IMDb rating, and distributor.
-- Our model selection process was guided by criteria such as the Cp statistic and BIC (Bayesian Information Criterion), ensuring that we chose a model that balanced complexity with explanatory power, avoiding overfitting and collinearity.
+- Our model selection process was guided by criteria such as the Cp statistic and BIC (Bayesian Information Criterion), ensuring that we chose a model that balanced complexity with explanatory power, avoiding overfitting.
 
 ### Final Model
 The final regression model demonstrates the relationship between domestic gross earnings and selected movie attributes:
