@@ -19,8 +19,9 @@ This project delves into the statistical relationships between various movie att
 - Our data preparation phase set the groundwork for accurate and reliable statistical analysis, emphasizing the critical role of data integrity in statistical modeling.
 
 ### Sophisticated Statistical Analysis
-- We employed a variety of data visualization tools (scatter plots, heatmaps, boxplots) to conduct a preliminary analysis, identifying potential correlations and patterns that warranted further investigation.
-- The use of regression models, particularly focusing on the transformation of variables like domestic gross earnings (log transformation), allowed us to deal effectively with non-linear relationships and variance heterogeneity.
+- We employed a variety of data visualization tools (scatter plots, heatmaps, boxplots) to conduct a preliminary analysis, identifying potential correlations and patterns that warranted further investigation as well as problems such as collinearity.
+- We explored the effect of polynomial transformations of the explanatory and response variables to deal effectively with non-linear relationships and variance heterogeneity.
+- Employed Residuals vs. Fitted and QQ plots for comprehensive residual analysis, rigorously checking for deviations from key model assumptions such as linearity, homoscedasticity, and normality, thereby validating the integrity and accuracy of our statistical model.
 
 ### Model Selection and Validation
 - Through exhaustive search methods, including the "regsubsets" function, we identified the most statistically significant variables affecting domestic gross earnings: budget, IMDb rating, and distributor.
