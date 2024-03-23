@@ -13,8 +13,9 @@ This project delves into the statistical relationships between various movie att
 
 ## Project Highlights
 
-### Rigorous Data Management
-- The project began with a meticulous data cleaning process, addressing missing values, irrelevant variables and outliers from a dataset containing over 35 variables related to movie features and financial performance.
+### Rigorous Data Preprocessing
+- The project involves a meticulous data cleaning process, addressing missing values, irrelevant variables and outliers from a dataset containing over 35 variables related to movie features and financial performance.
+- Involves using methods such as Cook's distance to identify influential data points
 - Our data preparation phase set the groundwork for accurate and reliable statistical analysis, emphasizing the critical role of data integrity in statistical modeling.
 
 ### Sophisticated Statistical Analysis
