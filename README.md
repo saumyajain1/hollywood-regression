@@ -20,7 +20,7 @@ This project delves into the relationships between various movie attributes and 
 
 ### Sophisticated Statistical Analysis
 - We employed a variety of data visualization tools (scatter plots, heatmaps, boxplots) to conduct a preliminary analysis, identifying potential correlations and patterns that warranted further investigation as well as problems such as collinearity.
-- We explored the effect of polynomial transformations of the explanatory and response variables to deal effectively with non-linear relationships and variance heterogeneity.
+- We explored the effect of polynomial and logarithmic transformations of the explanatory and response variables to deal effectively with non-linear relationships and variance heterogeneity.
 - Employed Residuals vs. Fitted and QQ plots for comprehensive residual analysis, rigorously checking for deviations from key model assumptions such as linearity, homoscedasticity, and normality, thereby validating the integrity and accuracy of our statistical model.
 
 ### Model Selection and Validation
