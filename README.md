@@ -30,7 +30,7 @@ This project delves into the relationships between various movie attributes and 
 ### Final Model
 The final regression model demonstrates the relationship between domestic gross earnings and selected movie attributes:
 
-log(Domestic Gross) = -0.955 + + 0.432(IMDb Rating) + 0.0144(Budget) + 0.650(Paramount) + 1.39(Sony) + 0.900(Universal) + 0.222(Disney) + 0.531(Warner Bros) + ε
+log(Domestic Gross) = -0.955 + 0.432(IMDb Rating) + 0.0144(Budget) + 0.650(Paramount) + 1.39(Sony) + 0.900(Universal) + 0.222(Disney) + 0.531(Warner Bros) + ε
 
 - The baseline for distributor is 'other'
 
